@@ -1,0 +1,77 @@
+--- TO-DO ---
+
+MapUtilities:
+	fix readMapCoordsFromFile function. it is fucking spaghetti code
+
+
+fix rendering of the map:
+Editing:
+	world width gali keistis. somehow konstantas reikes keisti
+
+Spikes:
+    collisions spikes
+
+code refactoring:
+    spikes code
+    money collection code
+
+--- reikalavimai ---
+
+paspaudi kazkokia raide "E" atsiranda grid. ir atsiranda pasirinkimo meniu
+
+Galimybė sukurti, įkelti ir modifikuoti pasaulį
+
+Pasaulį kuriantis langas, kuriame galima pasirinkti vaizdų kubelius (paprastinta "Tiled Map Editor" arba kitos alternatyvos versija)
+
+Ne mažiau kaip 3-5 žaidimo lygiai
+
+---tips for myself...? lol---
+
+kai kursiu menu ir pauzes geriausia viewport imti ScreenViewPort()
+
+--- resources ---
+
+https://libgdx.com/wiki/graphics/viewports
+https://libgdx.com/wiki/tools/hiero
+https://libgdx.com/wiki/articles/dependency-management-with-gradle#freetypefont-gradle
+https://libgdxinfo.wordpress.com/basic-label/
+https://xoppa.github.io/blog/pixels/
+
+--- useful links ---
+
+https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/
+
+https://apps.lospec.com/pixel-editor	pixel editor
+
+https://www.piskelapp.com/	sprites
+
+https://www.photopea.com/ 	pixel editor + erasina background gerai (e button)
+
+https://libgdx.com/wiki/graphics/2d/2d-animation 	animations
+
+
+
+//
+To create a level editor window in your libGDX program:
+
+Design the layout:
+
+Place three buttons ("load", "save", "menu") at the top of the screen.
+On the right side, display the tiles that the user can choose from.
+On the left side, display a grid where the user can place tiles.
+Implement functionality:
+
+Implement functions for "load", "save", and "menu" buttons.
+Enable tile selection from the right side.
+Implement grid interaction:
+Allow users to place tiles by clicking on the grid.
+Enable tile deletion by right-clicking on the grid.
+Use libGDX features:
+
+Utilize libGDX's Stage and Actors for UI components.
+Implement InputListeners for button clicks and grid interactions.
+Use libGDX's texture regions or image resources for displaying tiles.
+By following these steps, you can create a functional level editor window in your libGDX program.
+
+
+if no levels, cant click
